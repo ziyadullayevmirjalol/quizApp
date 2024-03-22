@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("https://cdn.pixabay.com/photo/2015/04/23/21/59/tree-736877_1280.jpg")no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+#game-container {
+    background-color: #e0ffffc5;
+    min-width: 900px;
+    text-align: center;
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 2px solid #cccccc71;
+    border-radius: 10px;
+}
+
+.option {
+    border: 1px solid green;
+    margin: 10px;
+    padding: 20px;
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.option:hover {
+    background-color: #ddd;
+}
+
+#timer {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+#message {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#next-button {
+    display: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #00ff73;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#next-button:active {
+    background-color: #0ccf5d;
+}
